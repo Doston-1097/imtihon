@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:ital,wght@0,500;1,400&display=swap");
+/* width */
+::-webkit-scrollbar {
+  width: 10px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%); }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: goldenrod; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: red; }
+
 body {
   background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%);
   font-family: Poppins; }
@@ -11,7 +27,7 @@ body {
         background: rgba(255, 255, 255, 0.1);
         border: none !important; }
       body header .navbar .container form .searched input {
-        width: 384px;
+        width: 85% !important;
         background-color: rgba(255, 255, 255, 0.1);
         border-radius: 15px;
         border: none;
@@ -75,7 +91,7 @@ body {
         display: none !important; } }
     @media screen and (max-width: 999.9px) {
       body .heder-sec .row .right .third {
-        display: none !important; } }
+        display: block !important; } }
     @media screen and (max-width: 737px) {
       body .heder-sec .row .right .third {
         display: none !important; } }
